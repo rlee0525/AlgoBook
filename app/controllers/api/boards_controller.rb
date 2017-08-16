@@ -13,6 +13,11 @@ class Api::BoardsController < ApplicationController
     end
   end
 
+  def show
+    @board = Board.find(params[:id])
+    @posts = Board.posts
+  end
+
   private
 
   def board_params
