@@ -7,16 +7,23 @@ import {
   HashRouter
 } from 'react-router-dom';
 
+import Navbar from 'core/navbar/navbar';
+
 const App = () => (
   <div>
-    <header>
-      <Link to="/" className="header-link">
-        <h1> AlgoBook </h1>
-      </Link>
-    </header>
-    <Switch>
-      
-    </Switch>
+    <div>
+      <Navbar />
+    </div>
+    <div className="container-componenet">
+      <div className="sidebar-container">
+        
+      </div>
+      <div className="main-component-container">
+        <Switch>
+          
+        </Switch>
+      </div>
+    </div>
   </div>
 );
 
