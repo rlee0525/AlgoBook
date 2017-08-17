@@ -12,9 +12,18 @@ class Navbar extends React.Component {
           ALGOBOOK
         </div>
         <div className="icons-container">
-          <div className="linked-in">
-            
-          </div>
+          <a 
+            href="https://github.com/rlee0525/Algobook"
+            target="_blank"
+            className="fa fa-github" 
+            aria-hidden="true"
+          />
+          <a 
+            href="https://www.linkedin.com/in/rlee0525"
+            target="_blank"
+            className="fa fa-linkedin" 
+            aria-hidden="true"
+          />
         </div>
       </div>
     );
