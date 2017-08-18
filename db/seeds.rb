@@ -5,3 +5,19 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Board.create({
+  category: "test",
+  description: "testing board"
+})
+
+Post.create({
+  title: "hello world 1",
+  description: "testing post",
+  board_id: 1
+})
+
+Post.create({
+  title: "hello world 2222",
+  description: "testing post again",
+  board_id: 1
+})
