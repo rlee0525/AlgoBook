@@ -15,14 +15,9 @@ const App = () => (
       <Navbar />
     </div>
     <div className="container-componenet">
-      <div className="sidebar-container">
+      <Switch>
         
-      </div>
-      <div className="main-component-container">
-        <Switch>
-          
-        </Switch>
-      </div>
+      </Switch>
     </div>
   </div>
 );

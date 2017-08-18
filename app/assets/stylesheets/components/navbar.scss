@@ -7,20 +7,30 @@
 
   .website-name {
     color: $white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 22px;
     font-weight: 400;
     font-family: $roboto;
     margin-left: 20px;
     line-height: 60px;
-  }
 
+    #website-main-nav {
+      margin-left: 25px;
+      
+      a {
+        font-size: 18px;
+        top: -1px;
+        position: relative;
+        cursor: pointer;
+      }
+    }
+  }
   .icons-container {
     a {
       color: $white;
       margin-right: 20px;
       font-size: 22px;
-      line-height: 55px;
+      line-height: 60px;
     }
   }
 }

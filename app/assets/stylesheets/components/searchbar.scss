@@ -1,0 +1,32 @@
+.hidden-input {
+  margin-left: 20px;
+
+  .searchbar-container {
+    input {
+      width: 0;
+    }
+  }
+}
+.visible-input {
+  padding-left: 20px;
+
+  .searchbar-container {
+    margin-right: 15px;
+
+    input {
+      position: relative;
+      top: -3px;
+      border: 1px solid $white;
+      background-color: $white;
+      height: 20px;
+      width: 250px;
+      border-radius: 2px;
+      padding: 5px;
+      padding-left: 10px;
+      font-size: 12px;
+      color: black;
+      -webkit-transition: width 0.5s, -webkit-transform 0.5s;
+      transition: width 0.5s, transform 0.5s;
+    }
+  }
+}
